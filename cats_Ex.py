@@ -13,6 +13,7 @@ class Cat:
 cat1 = Cat('Kitty', 2)
 cat2 = Cat('Mitty', 4)
 cat3 = Cat('Pitty', 5)
+cat4 = Cat('Loki', 100)
 
 
 def oldest_cat(*args):
