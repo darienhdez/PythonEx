@@ -23,6 +23,7 @@ def oldest_cat(*args):
 def young_cat(*args):
     return min(args)
 
+
 print(
     f'The oldest cat is {oldest_cat(cat1.name, cat2.name, cat3.name)} and has {oldest_cat(cat1.age, cat2.age, cat3.age)} years old.')
 print(
